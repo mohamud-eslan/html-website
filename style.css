@@ -1,0 +1,213 @@
+
+section{
+    min-height: 200vh;
+    width: 100%;
+    position: relative;
+}
+nav{
+    z-index: 50;
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+    top: 5%;
+    position: sticky;
+
+}
+nav .links{
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box
+}
+nav .links li {
+
+    display: inline-flex;
+    text-decoration: none;
+    font-size: 20px;
+    list-style: none;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding: 10px;
+    margin-right: 30px;
+
+}
+.links li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: skyblue;
+}
+.button{
+    height: 30px;
+    width: 100px;
+    background-color: #02006d;
+    border-radius: 20px 20px 0px;
+    color: #ffffff;
+    border: 1px solid #02006d;
+   margin-right: 30px;
+}
+.button:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: skyblue;
+}
+.circle4{
+    z-index: 10;
+    height: 92px;
+    width: 91px;
+    background-color: #FBE94B;
+    position: absolute;
+    border-radius: 50%;
+    top: 15%;
+    right: 20%;
+}
+.baby{
+    z-index: 20;
+    height: 63px;
+    width: 50px;
+    background-color: #FBE94B;
+    position: absolute;
+    border-radius: 50%;
+    top: 16%;
+    right: 21%;
+}
+.circle6{
+    height: 44px;
+    width: 46px;
+    background-color: #0b1053;
+    position: absolute;
+    border-radius: 50%;
+    top: 37%;
+    right: 22%;
+}
+.circle5{
+    height: 279px;
+    width: 279px;
+    background-color: #69D9FC;
+    position: absolute;
+    border-radius: 50%;
+    top: 18%;
+    right: 5%;
+}
+.lady{
+    height: 190px;
+    width: 169px;
+    background-image: url(./icecream2.png);
+    position: absolute;
+    top: 18%;
+    right: 10%;
+}
+.absolute{
+    height: 100px;
+    width: 150px;
+    background-color: rgb(247, 243, 9);
+    position: absolute;
+    bottom: 30vh;
+    left: 20%;
+    border-radius: 25%;
+}
+.fixed{
+    height: 50px;
+    width: 50px;
+    background-color: #3FD44E;
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    left: 25%;
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    background-color: #FBE94B;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 30%;
+    left: 0;
+}
+.circle1{
+    height: 32px;
+    width: 30px;
+    background-color: #F42626;
+    position: absolute;
+    border-radius: 50%;
+    top: 15%;
+    left: 15%;
+}
+.circle2{
+    height: 32px;
+    width: 30px;
+    background-color: #F42626;
+    position: absolute;
+    border-radius: 50%;
+    top: 10%;
+    right: 0;
+}
+.circle3{
+    height: 20px;
+    width: 20px;
+    background-color: #3FD44E;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 10%;
+    right: 10%;
+}
+.paragraph{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+.collection{
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    color: red;
+}
+.paragraph h1{
+    font-size: 24px;
+    color: #030A45;
+}
+.button2{
+    height: 30px;
+    width: 100px;
+    background-color: #FB0808;
+    border-radius: 20px 20px 0px;
+    color: #ffffff;
+    border: 1px solid #FB0808;
+   margin-right: 30px;
+}
+.button2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: skyblue;
+}
+.paragraph2{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 44%;
+    right: 7%;
+}
+.paragraph2 .number{
+    color: #05035B;
+    font-size: 36px;
+}
+.solid{
+    height: 150px;
+    width: 5px;
+    background-color: rgb(247, 84, 9);
+    position: absolute;
+    top: 45%;
+    right: 25%;
+}
+.legs{
+    height: 200px;
+    width: 200px;
+background-size: contain;
+background-color: #02006d;
+    position: absolute;
+    bottom: 40vh;
+    left: 35%;
+}
